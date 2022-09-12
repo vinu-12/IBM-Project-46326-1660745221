@@ -22,4 +22,4 @@ In this project, we are creating a web application which uses a deep learning mo
 - GOKUL R
 - JAGAN P
 
-## 🗺️ EMPATHY MAP CANVAS - [Click Here](https://github.com/IBM-EPBL/IBM-Project-46326-1660745221/blob/main/Digital%20Naturalist/Empathy%20Map.pdf)
+## 🗺️ EMPATHY MAP - [Click Here](https://github.com/IBM-EPBL/IBM-Project-46326-1660745221/blob/main/Digital%20Naturalist/Empathy%20Map.pdf)

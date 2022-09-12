@@ -18,6 +18,6 @@ In this project, we are creating a web application which uses a deep learning mo
 
 - ABISHEK S  
 - BHARANIDHARAN N
-- DINESH KUMAT T
+- DINESH KUMAR T
 - GOKUL R
 - JAGAN P

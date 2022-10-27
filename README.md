@@ -1,8 +1,13 @@
+<a href="https://github.com/IBM-EPBL/IBM-Project-46326-1660745221">
+ <img src="https://i.postimg.cc/3wbGCB4c/Blue-and-Green-Fun-and-Elegant-Nature-Research-Banner-2.gif">
+</a>
+<h2 align="center"><img src="https://media1.giphy.com/media/f9Auu2zwYo1XGTsSPg/giphy.gif?cid=ecf05e47tnkhhm9of0gy1c66gntftbo34jm2iv8h5o4tq63e&rid=giphy.gif&ct=s" width="30px"> Digital Naturalist - AI Enabled tool for Biodiversity Researchers <a href="https://github.com/IBM-EPBL/IBM-Project-46326-1660745221" target="_blank"></h2>
+<h3><ul>
+<li>TECHNOLOGY : Artificial Intelligence</li>
+<li>TEAM ID : PNT2022TMID39559</li>
+</h3>
 
-#  <img src="https://media1.giphy.com/media/f9Auu2zwYo1XGTsSPg/giphy.gif?cid=ecf05e47tnkhhm9of0gy1c66gntftbo34jm2iv8h5o4tq63e&rid=giphy.gif&ct=s" width="30px"> Digital Naturalist - AI Enabled tool for Biodiversity Researchers
 
-- TECHNOLOGY : Artificial Intelligence
-- TEAM ID : PNT2022TMID39559
 
 # 📒 PROJECT DESCRIPTION
 
@@ -24,3 +29,5 @@ In this project, we are creating a web application which uses a deep learning mo
 - JAGAN P
 
 ## 🗺️ EMPATHY MAP - [Click Here](https://github.com/IBM-EPBL/IBM-Project-46326-1660745221/blob/main/Digital%20Naturalist/Empathy%20Map.pdf)
+<div align="center">
+ <h5> Made with :hearts: in C. Abdul Hakeem College of Engineering and Technology </h5>

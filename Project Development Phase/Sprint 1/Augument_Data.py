@@ -24,6 +24,7 @@ def augment_data(file_dir, n_generated_samples, save_to_dir):
     
     for filename in listdir(file_dir):
         image = cv2.imread(file_dir + '/' + filename)
+        image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
         image = image.reshape((1,)+image.shape)
         save_prefix = 'aug_' + filename[:-4]    
         i=0
@@ -36,12 +37,12 @@ def augment_data(file_dir, n_generated_samples, save_to_dir):
 start_time = time.time()
 
 augmented_data_path = 'C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Augumented Dataset'
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Bird/Great Indian Bustard Bird', n_generated_samples=8, save_to_dir=augmented_data_path+'/Bird/GIB_AUG')
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Bird/Spoon Billed Sandpiper Bird', n_generated_samples=8, save_to_dir=augmented_data_path+'/Bird/SPS_AUG')
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Flower/Corpse Flower', n_generated_samples=8, save_to_dir=augmented_data_path+'/Flower/Corpse_AUG')
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Flower/Lady Slipper Orchid Flower', n_generated_samples=8, save_to_dir=augmented_data_path+'/Flower/LS_Orchid_AUG')
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Mammal/Pangolin Mammal', n_generated_samples=8, save_to_dir=augmented_data_path+'/Mammal/LS_Pangolin_AUG')
-augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Mammal/Senenca White Deer Mammal', n_generated_samples=8, save_to_dir=augmented_data_path+'/Mammal/SW_Deer_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Bird/Great Indian Bustard Bird', n_generated_samples=20, save_to_dir=augmented_data_path+'/Bird/GIB_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Bird/Spoon Billed Sandpiper Bird', n_generated_samples=20, save_to_dir=augmented_data_path+'/Bird/SPS_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Flower/Corpse Flower', n_generated_samples=20, save_to_dir=augmented_data_path+'/Flower/Corpse_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Flower/Lady Slipper Orchid Flower', n_generated_samples=20, save_to_dir=augmented_data_path+'/Flower/LS_Orchid_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Mammal/Pangolin Mammal', n_generated_samples=20, save_to_dir=augmented_data_path+'/Mammal/LS_Pangolin_AUG')
+augment_data(file_dir='C:/Users/0xluk/OneDrive/Documents/Digital Naturalist/Digital Naturalist/Mammal/Senenca White Deer Mammal', n_generated_samples=20, save_to_dir=augmented_data_path+'/Mammal/SW_Deer_AUG')
 
 
 end_time = time.time()
